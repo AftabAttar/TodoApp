@@ -1,0 +1,39 @@
+.inputForm{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+    border: 1px solid;
+    
+}
+
+.inputBox{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.inputBox:focus{
+    outline: none;
+}
+
+.subButton{
+    display: inline-block;
+    background-color: #f7ca18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px ;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formContainer{
+    display: flex;
+}
